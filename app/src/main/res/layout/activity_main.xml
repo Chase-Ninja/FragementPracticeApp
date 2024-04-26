@@ -1,0 +1,29 @@
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#008E71"
+    tools:context=".MainActivity">
+
+<!--    <androidx.fragment.app.FragmentContainerView-->
+<!--        android:id="@+id/containerId"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="300dp"-->
+<!--        android:name="androidx.navigation.fragment.NavHostFragment"-->
+<!--        android:background="#005554"-->
+<!--        app:navGraph = "@navigation/nav_graph"-->
+<!--        app:defaultNavHost = "true"/>-->
+
+    <Button
+        android:id="@+id/CloseAppId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="@string/close_app"/>
+
+
+</LinearLayout>
